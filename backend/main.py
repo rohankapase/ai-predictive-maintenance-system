@@ -39,8 +39,8 @@ class PredictRequest(BaseModel):
     maint4: float
 
 @app.get("/")
-def root():
-    return {"status": "ok", "message": "API is running"}
+def home():
+    return {"message": "API is running 🚀"}
 
 @app.post("/train")
 def train_model_endpoint():
