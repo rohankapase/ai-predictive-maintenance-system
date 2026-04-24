@@ -40,7 +40,7 @@ class PredictRequest(BaseModel):
 
 @app.get("/")
 def home():
-    return {"message": "API is running 🚀"}
+    return {"message": "API is running v2 🚀"}
 
 @app.post("/train")
 def train_model_endpoint():
